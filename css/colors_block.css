@@ -9,6 +9,13 @@
 .colors-block ul{
   list-style: none;
   padding-left: 0;
+  font-family: Quicksand;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 29px;
+  /* align-items: center; */
+
+  color: #1F2041;
 }
 
 .colors-block__rectangle {
