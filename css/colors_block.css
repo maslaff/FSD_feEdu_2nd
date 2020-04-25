@@ -1,27 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
-
 .colors-block {
-  margin: 0;
-  padding: 0;
-  margin-left: 150px;
-  margin-top: 67px;
-  width: 270px;
-}
-
-.colors-block__list {
-  margin: 0;
   padding: 0;
   list-style: none;
-  padding-left: 0;
-
-  font-family: Quicksand;
+  margin-left: 150px;
+  margin-top: 63px;
+  width: 270px;
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-size: 19px;
   line-height: 29px;
-  /* align-items: center; */
-  /* margin-left: 110px; */
+  float: left;
+}
 
-  color: #1F2041;
+.colors-block__item {
+  margin: 0 0 20px 0;
+  height: 70px;
 }
 
 .colors-block__rectangle {
@@ -29,39 +21,43 @@
   height: 70px;
   border-radius: 6px;
   background: #1F2041;
-  margin: 0;
-  padding: 0;
-  /* margin-right: 40px; */
-  /* display: block; */
   float: left;
 }
 
-.colors-block__list dl {
+.colors-block__text {
   margin-left: 110px;
-  outline: 2px solid blue;
-  /* display: block; */
+  padding-top: 5px;
 }
 
-.colors-block__list dt {
+.colors-block dt {
   font-weight: bold;
 }
 
-.colors-block__list dd {
+.colors-block dd {
   font-weight: normal;
   margin: 0;
 }
 
-.colors-block__list li {
-  margin-left: 110px;
+#ds75 {
+  background: rgba(31, 32, 65, 0.75);
 }
 
-.colors-block__item {
-  margin: 0;
-  padding: 0;
-  height: 70px;
-  outline: 3px dashed green;
+#ds50 {
+  background: rgba(31, 32, 65, 0.5);
 }
 
-* {
-  outline: thin solid red;
+#ds25 {
+  background: rgba(31, 32, 65, 0.25);
+}
+
+#ds5 {
+  background: rgba(31, 32, 65, 0.05);
+}
+
+#purple {
+  background: #BC9CFF;
+}
+
+#green {
+  background: #6FCF97;
 }
