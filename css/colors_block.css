@@ -1,58 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
-
 .colors-block {
-  margin-left: 150px;
-  margin-top: 67px;
-  width: 270px;
-}
-
-.colors-block ul{
+  padding: 0;
   list-style: none;
-  padding-left: 0;
-  font-family: Quicksand;
+  margin-left: 150px;
+  margin-top: 63px;
+  width: 270px;
+  font-family: 'Quicksand', sans-serif;
   font-style: normal;
   font-size: 19px;
   line-height: 29px;
-  /* align-items: center; */
+  float: left;
+}
 
-  color: #1F2041;
+.colors-block__item {
+  margin: 0 0 20px 0;
+  height: 70px;
 }
 
 .colors-block__rectangle {
   width: 70px;
   height: 70px;
   border-radius: 6px;
-  background: #f447ff;
-  margin-right: 40px;
-  /* display: block; */
+  background: #1F2041;
   float: left;
 }
 
-.colors-block__text{
-  font-family: Quicksand;
-  font-style: normal;
-  font-size: 19px;
-  line-height: 29px;
-  /* align-items: center; */
-
-  color: #1F2041;
-  /* border: 1px solid red; */
+.colors-block__text {
+  margin-left: 110px;
+  padding-top: 5px;
 }
 
-.colors-block__text dt {
+.colors-block dt {
   font-weight: bold;
 }
 
-.colors-block__text dd {
+.colors-block dd {
   font-weight: normal;
+  margin: 0;
 }
 
-.colors-block__text dl {
-}
-.colors-block__item {
-  /* border: 1px solid red; */
+#ds75 {
+  background: rgba(31, 32, 65, 0.75);
 }
 
-* {
-  /* border: 1px solid red; */
+#ds50 {
+  background: rgba(31, 32, 65, 0.5);
+}
+
+#ds25 {
+  background: rgba(31, 32, 65, 0.25);
+}
+
+#ds5 {
+  background: rgba(31, 32, 65, 0.05);
+}
+
+#purple {
+  background: #BC9CFF;
+}
+
+#green {
+  background: #6FCF97;
 }

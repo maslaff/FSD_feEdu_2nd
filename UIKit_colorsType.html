@@ -4,96 +4,93 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <img class="logo" src="logo.png" alt="">
-  <div class="colors-block">
-
-    <ul class="colors-block__list">
-
-      <li>
-        <div class="colors-block__item">
-          <span class="colors-block__rectangle"></span>
-          <span class="colors-block__text">
-            <dl>
-              <dt>Dark Shade 100%</dt>
-              <dd>#1F2041</dd>
-            </dl>
-          </span>
-        </div>
+  <section>
+    <ul class="colors-block">
+      <li class="colors-block__item">
+        <div class="colors-block__rectangle"></div>
+        <dl class="colors-block__text">
+          <dt>Dark Shade 100%</dt>
+          <dd>#1F2041</dd>
+        </dl>
       </li>
-
-      <li>
-        <div class="colors-block__item">
-          <span class="colors-block__rectangle"></span>
-          <span class="colors-block__text">
-            <dl>
-              <dt>Dark Shade 75%</dt>
-              <dd>#1F2041</dd>
-            </dl>
-          </span>
-        </div>
+      <li class="colors-block__item">
+        <div class="colors-block__rectangle" id="ds75"></div>
+        <dl class="colors-block__text">
+          <dt>Dark Shade 75%</dt>
+          <dd>#1F2041</dd>
+        </dl>
       </li>
-
-      <div class="colors-block__item">
-        <li>
-          <div class="colors-block__rectangle"></div>
-          <div class="colors-block__text">
-            <dl>
-              <dt>Dark Shade 50%</dt>
-              <dd>#1F2041</dd>
-            </dl>
-          </div>
-        </li>
-      </div>
-      <div class="colors-block__item">
-        <li>
-          <div class="colors-block__rectangle"></div>
-          <div class="colors-block__text">
-            <dl>
-              <dt>Dark Shade 25%</dt>
-              <dd>#1F2041</dd>
-            </dl>
-          </div>
-        </li>
-      </div>
-      <div class="colors-block__item">
-        <li>
-          <div class="colors-block__rectangle"></div>
-          <div class="colors-block__text">
-            <dl>
-              <dt>Dark Shade 5%</dt>
-              <dd>#1F2041</dd>
-            </dl>
-          </div>
-        </li>
-      </div>
-      <div class="colors-block__item">
-        <li>
-          <div class="colors-block__rectangle"></div>
-          <div class="colors-block__text">
-            <dl>
-              <dt>Purple</dt>
-              <dd>#BC9CFF</dd>
-            </dl>
-          </div>
-        </li>
-      </div>
-      <div class="colors-block__item">
-        <li>
-          <div class="colors-block__rectangle"></div>
-          <div class="colors-block__text">
-            <dl>
-              <dt>Green</dt>
-              <dd>#6FCF97</dd>
-            </dl>
-          </div>
-        </li>
-      </div>
+      <li class="colors-block__item">
+        <div class="colors-block__rectangle" id="ds50"></div>
+        <dl class="colors-block__text">
+          <dt>Dark Shade 50%</dt>
+          <dd>#1F2041</dd>
+        </dl>
+      </li>
+      <li class="colors-block__item">
+        <div class="colors-block__rectangle" id="ds25"></div>
+        <dl class="colors-block__text">
+          <dt>Dark Shade 25%</dt>
+          <dd>#1F2041</dd>
+        </dl>
+      </li>
+      <li class="colors-block__item">
+        <div class="colors-block__rectangle" id="ds5"></div>
+        <dl class="colors-block__text">
+          <dt>Dark Shade 5%</dt>
+          <dd>#1F2041</dd>
+        </dl>
+      </li>
+      <li class="colors-block__item">
+        <div class="colors-block__rectangle" id="purple"></div>
+        <dl class="colors-block__text">
+          <dt>Purple</dt>
+          <dd>#BC9CFF</dd>
+        </dl>
+      </li>
+      <li class="colors-block__item">
+        <div class="colors-block__rectangle" id="green"></div>
+        <dl class="colors-block__text">
+          <dt>Green</dt>
+          <dd>#6FCF97</dd>
+        </dl>
+      </li>
     </ul>
-  </div>
+  </section>
+  <section id="sec1">
+    <ul class="types-block">
+      <li class="types-block__item">
+        <div class="types-block__val">H1</div>
+        <div class="types-block__descript">
+          <h1>This one is the sub-section or widget title</h1>
+        </div>
+      <li class="types-block__item">
+        <div class="types-block__val" id="tbH2">H2</div>
+        <div class="types-block__descript">
+          <h2>Next one is the item title inside widgets</h2>
+        </div>
+      </li>
+      <li class="types-block__item">
+        <div class="types-block__val" id="tbH3">H3</div>
+        <div class="types-block__descript">
+          <h3>This is a label or CTA text</h3>
+        </div>
+      </li>
+      <li class="types-block__item">
+        <div class="types-block__val" id="tbBody">Body</div>
+        <div class="types-block__descript body">
+          This is the body text which is used for most <br> of the design, like paragraphs, lists, etc.
+        </div>
+      </li>
+  </section>
 </body>
 
 </html>
